@@ -3,4 +3,8 @@ console.log("Imran don't be sleepy.");
 console.log("Ezequiel has awesome hair.");
 console.log("Hi Kate!");
 
+$.ajax({
+	url:"https://api.giphy.com",
+	method: "GET"
+});
 
